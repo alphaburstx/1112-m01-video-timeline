@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "output": {
+    "width": 320,
+    "height": 180,
+    "fps": "30000/1001",
+    "sample_rate": 48000,
+    "background": "#000000"
+  },
+  "clips": [
+    {
+      "source": "../media/c_silent.mov",
+      "source_in": "0",
+      "source_out": "1001/60000",
+      "speed": "1",
+      "gain_db": 0,
+      "fit": "contain",
+      "transition_out": {
+        "type": "cut",
+        "duration": "0"
+      }
+    },
+    {
+      "source": "../media/c_silent.mov",
+      "source_in": "0",
+      "source_out": "1001/60000",
+      "speed": "1",
+      "gain_db": 0,
+      "fit": "contain",
+      "transition_out": {
+        "type": "cut",
+        "duration": "0"
+      }
+    },
+    {
+      "source": "../media/c_silent.mov",
+      "source_in": "0",
+      "source_out": "1001/60000",
+      "speed": "1",
+      "gain_db": 0,
+      "fit": "contain",
+      "transition_out": {
+        "type": "cut",
+        "duration": "0"
+      }
+    },
+    {
+      "source": "../media/c_silent.mov",
+      "source_in": "0",
+      "source_out": "1001/60000",
+      "speed": "1",
+      "gain_db": 0,
+      "fit": "contain",
+      "transition_out": {
+        "type": "cut",
+        "duration": "0"
+      }
+    }
+  ]
+}

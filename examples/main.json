@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "output": {
+    "width": 320,
+    "height": 180,
+    "fps": "30000/1001",
+    "sample_rate": 48000,
+    "background": "#000000"
+  },
+  "clips": [
+    {
+      "source": "../media/a_vfr_late.mov",
+      "source_in": "1/10",
+      "source_out": "27/10",
+      "speed": "3/2",
+      "gain_db": -3,
+      "fit": "contain",
+      "transition_out": {
+        "type": "dissolve",
+        "duration": "7/20"
+      }
+    },
+    {
+      "source": "../media/b_portrait_early.mov",
+      "source_in": "1/5",
+      "source_out": "14/5",
+      "speed": "4/5",
+      "gain_db": -6,
+      "fit": "contain",
+      "transition_out": {
+        "type": "wipe_left",
+        "duration": "9/20"
+      }
+    },
+    {
+      "source": "../media/c_silent.mov",
+      "source_in": "0",
+      "source_out": "9/5",
+      "speed": "1",
+      "gain_db": 0,
+      "fit": "cover",
+      "transition_out": {
+        "type": "cut",
+        "duration": "0"
+      }
+    },
+    {
+      "source": "../media/d_sar.mov",
+      "source_in": "1/10",
+      "source_out": "29/10",
+      "speed": "7/6",
+      "gain_db": -3,
+      "fit": "contain",
+      "transition_out": {
+        "type": "cut",
+        "duration": "0"
+      }
+    }
+  ]
+}
